@@ -118,6 +118,8 @@ if (opts.webpack) {
   if (webpackConfig) opts.webpack = require(webpackConfig)
 }
 
+opts.serve = opts.webpack.serve || {};
+
 if (opts.template) {
   opts.template = require(path.resolve(opts.template))
 }
