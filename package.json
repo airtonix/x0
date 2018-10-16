@@ -52,7 +52,6 @@
     "glamor": "^2.20.40",
     "gray-matter": "^4.0.1",
     "html-minifier": "^3.5.16",
-    "koa-connect": "^2.0.1",
     "lodash.sortby": "^4.7.0",
     "meow": "^5.0.0",
     "mini-html-webpack-plugin": "^0.2.3",
