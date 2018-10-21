@@ -1,6 +1,6 @@
 {
   "name": "@compositor/x0",
-  "version": "6.0.6",
+  "version": "6.0.7",
   "description": "Document & develop React components without breaking a sweat",
   "main": "index.js",
   "bin": {
@@ -43,6 +43,7 @@
     "babel-preset-stage-0": "^6.24.1",
     "babel-register": "^6.26.0",
     "browser-env": "^3.2.5",
+    "buble": "0.19.4",
     "chalk": "^2.4.1",
     "clipboardy": "^1.2.3",
     "connect-history-api-fallback": "^1.5.0",
