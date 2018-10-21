@@ -7,7 +7,8 @@
     "x0": "cli.js"
   },
   "scripts": {
-    "start": "node ./cli.js docs",
+    "start": "node ./cli.js docs --debug",
+    "debug": "node --nolazy --inspect-brk=5858 ./cli.js docs",
     "build": "node ./cli.js build docs",
     "test": "nyc ava --timeout=60s",
     "test:components": "nyc ava test/components.js",
@@ -61,7 +62,7 @@
     "react": "^16.4.1",
     "react-dev-utils": "^5.0.1",
     "react-dom": "^16.4.1",
-    "react-live": "^1.10.1",
+    "react-live": "1.8.0-0",
     "react-router": "^4.3.1",
     "react-router-dom": "^4.3.1",
     "react-scope-provider": "^1.0.0-1",
